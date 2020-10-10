@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ecomerce</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/style.css">
+	
+</head>
+<body>
+
+<!-- Nav_Bar -->	
+<div class="navbar">
+	<div class="logo">DBTK</div>				
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#sect_2">Shop</a></li>
+			</ul>
+	</div>
+
+
+<!-- main page -->
+	<section id="sect_1">
+		<!-- <div class="main_page">
+			
+		</div> -->
+		<div id="info">
+			<h1>DBTK</h1>
+			<p> We are specialty store that offers brands connected to the lifesstyle of todays youth.
+			We have grown from alternative lifestyle store to a brand that inspires togetherness.</p>
+		</div>
+	</section>
+
+<!-- products -->
+	<section id="sect_2">
+		<div class="desrciption">
+
+			<div class="collum">
+				<img id="featured" src="img/Item 1/Chillmentary_1.jpg">		
+
+			<!-- 	<div class="prc">
+					<P>300 Php.</P>
+				</div> -->
+
+				<div class="buy_btn">
+					<P id="prce">₱850 </P>
+					<button class="btn_1">Buy Now</button>
+				</div>
+
+
+			<div class="collum_2">
+					<h1 id="nm">Chillmentary</h1>
+					<p id="par">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dolore pariatur quis ratione asperiores officiis eum quas<br>laboriosam eos culpa cum provident, impedit quod, ab <br>
+						numquam! Perferendis natus nemo delectus id.</p>
+			</div>
+
+			</div>	
+
+			</div>
+
+			<div id="items">
+				<div id="prdct1">
+					<a href="#sect_2"><img class="test active" src="img/Item 1/Chillmentary_1.jpg"></a>
+				</div>
+				<div id="prdct2">
+					<a href="#sect_2"><img class="test" src="img/Item 2/Godspeed_4.jpg"></a>
+				</div>
+				<div Id="prdct3">
+					<a href="#sect_2"><img class="test" src="img/Item 3/Chillmentary_black_1.jpg"></a>
+				</div>
+				<div Id="prdct4">
+					<a href="#sect_2"><img class="test" src="img/Item 4/Echo_black_1.jpg"></a>
+				</div>
+				<div Id="prdct4">
+					<a href="#sect_2"><img class="test" src="img/Item 4/Echo_black_1.jpg"></a>
+				</div>				
+				<div Id="prdct3">
+					<a href="#sect_2"><img class="test" src="img/Item 3/Chillmentary_black_1.jpg"></a>
+				</div>
+				<div Id="prdct2">
+					<a href="#sect_2"><img class="test" src="img/Item 2/Godspeed_4.jpg"></a>
+				</div>
+				<div Id="prdct1">
+					<a href="#sect_2"><img class="test" src="img/Item 1/Chillmentary_1.jpg"></a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+
+<script type="text/javascript">
+	document.getElementById('prdct1').onclick = function(){
+	            	document.getElementById("par").textContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	            	document.getElementById("nm").textContent="Chillmentary";
+	            	document.getElementById("prce").textContent="₱850 ";
+	}
+	document.getElementById('prdct2').onclick = function(){
+	            	document.getElementById("par").textContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	            	document.getElementById("nm").textContent="Godspeed";
+	            	document.getElementById("prce").textContent="₱900 ";
+	}
+	document.getElementById('prdct3').onclick = function(){
+	            	document.getElementById("par").textContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	            	document.getElementById("nm").textContent="Chillmentary Black";
+	            	document.getElementById("prce").textContent="₱800 ";
+	}
+	document.getElementById('prdct4').onclick = function(){
+	            	document.getElementById("par").textContent="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	            	document.getElementById("nm").textContent="Echo Black";
+	            	document.getElementById("prce").textContent="₱950 ";
+	}			
+</script>
+
+	<script src="script1.js"></script>
+
+
+
+</body>
+</html>
